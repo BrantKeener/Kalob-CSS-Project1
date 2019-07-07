@@ -1,0 +1,190 @@
+body {
+  background-color: rgb(199, 195, 184);
+  padding: 0%;
+  margin: 0%;
+  font-family: 'Roboto', 'sans-serif';
+}
+
+em {
+  font-weight: 900;
+}
+
+footer {
+  margin-top: 20px;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  background-color: rgb(34, 161, 211);
+  border-bottom: 2px solid grey;
+  color:  rgb(199, 195, 184);
+  display: block;
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  text-decoration: none;
+  text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000;
+}
+
+nav a:hover {
+  background-color: rgb(148, 71, 71);
+  color: rgb(34, 161, 211);
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  padding-right: 25px;
+}
+
+.column1, .column2, .column3 {
+  background-color: rgba(34, 161, 211, .5);
+  border-left: 5px solid rgb(148, 71, 71);
+  border-right: 5px solid rgb(148, 71, 71);
+  border-radius: 1rem;
+  display: inline-block;
+  font-size: 2rem;
+  height: 150px;
+  margin-left: 35px;
+  text-align: center;
+  vertical-align: middle;
+  width: 30%;
+}
+
+.full-width {
+  background-color: rgba(34, 161, 211, .5);
+  border-left: 5px solid rgb(148, 71, 71);
+  border-right: 5px solid rgb(148, 71, 71);
+  border-radius: 1rem;
+  font-size: 2rem;
+  height: 100px;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.general-info {
+  border-left: 5px solid rgb(148, 71, 71);
+  border-right: 5px solid rgb(148, 71, 71);
+  border-radius: 1rem;
+  display: inline-block;
+  margin-left: 15%;
+  padding: 50px;
+  text-align: justify;
+  width: 1200px;
+  font-size: 2rem;
+}
+
+.link1:hover::after {
+  background-color: rgb(34, 161, 211);
+  border-radius: 1rem 0 0 1rem;
+  content: 'Takes you to the first link.';
+  font-size: 1.25rem;
+  padding: 10px 0px;
+  position: absolute;
+  right: 0px;
+  text-align: center;
+  top: 300px;
+  width: 250px;
+}
+
+.link2:hover::after {
+  background-color: rgb(34, 161, 211);
+  border-radius: 1rem 0 0 1rem;
+  content: 'Takes you to the second link.';
+  font-size: 1.25rem;
+  padding: 10px 0px;
+  position: absolute;
+  right: 0px;
+  text-align: center;
+  top: 300px;
+  width: 250px;
+}
+
+.link3:hover::after {
+  background-color: rgb(34, 161, 211);
+  border-radius: 1rem 0 0 1rem;
+  content: 'Takes you to the third link.';
+  font-size: 1.25rem;
+  padding: 10px 0px;
+  position: absolute;
+  right: 0px;
+  text-align: center;
+  top: 300px;
+  width: 250px;
+}
+
+.link4:hover::after {
+  background-color: rgb(34, 161, 211);
+  border-radius: 1rem 0 0 1rem;
+  content: 'Takes you to the fourth link.';
+  font-size: 1.25rem;
+  padding: 10px 0px;
+  position: absolute;
+  right: 0px;
+  text-align: center;
+  top: 300px;
+  width: 250px;
+}
+
+.link5:hover::after {
+  background-color: rgb(34, 161, 211);
+  border-radius: 1rem 0 0 1rem;
+  content: 'Takes you to the fifth link.';
+  font-size: 1.25rem;
+  padding: 10px 0px;
+  position: absolute;
+  right: 0px;
+  text-align: center;
+  top: 300px;
+  width: 250px;
+}
+
+
+.nav-tab {
+  position: relative;
+  right: 190px;
+}
+
+
+#link-nav-list {
+  background-color: rgb(148, 71, 71);
+  border-radius: 1rem 0 0 1rem;
+  color: white;
+  display: inline-block;
+  font-size: 2rem;
+  height: 400px;
+  opacity: .75;
+  padding: 10px 0px;
+  position: absolute;
+  right: -180px;
+  text-align: right;
+  width: 275px;
+}
+
+#link-nav-list:hover {
+  right: 0px;
+  opacity: 1;
+}
+
+#link-nav-list:hover .nav-tab {
+  display: none;
+}
+
+#nav-title {
+  padding-right: 25px;
+}
